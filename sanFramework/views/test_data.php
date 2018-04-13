@@ -1,0 +1,1 @@
+<h1>My ID: <?php echo $id; ?></h1>

@@ -1,8 +1,9 @@
 <?php
-namespace controllers;
 
-use Core\Controller;
-
+/**
+ * Class HomeController
+ * @property User_model $user_model
+ */
 class HomeController extends Controller
 {
 	public function __construct()
@@ -10,12 +11,13 @@ class HomeController extends Controller
 		parent::__construct();
 		
 		// load model
-		$this->load_model("User_model");
+		//$this->load_model("User_model");
 	}
 	
     public function index()
     {
-		$all = $this->user_model->get_all();
+		//$all = $this->user_model->get_all();
+        $all = ['test'];
         $this->view('test', ['item' => $all]);
     }
 

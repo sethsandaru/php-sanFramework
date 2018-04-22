@@ -1,11 +1,12 @@
 <?php
+
 /*
  * MYSQL Connect Information Configuration
  */
 $database['host'] = "localhost";
 $database['user'] = "root";
-$database['pass'] = "mysql";
-$database['database'] = "test";
+$database['pass'] = "vertrigo";
+$database['database'] = "music";
 
 
 /*

@@ -26,7 +26,7 @@ function run_controller($controller, $data = [])
 
 
     // check class
-    if (class_exists($class_namespace) == false)
+    if (class_exists($class) == false)
         DIE("500 - Controller class is not existed");
 
     // method
@@ -35,7 +35,7 @@ function run_controller($controller, $data = [])
         $method = $ctr[1];
 
     // create obj
-    $obj = new $class_namespace();
+    $obj = new $class();
 
     call_user_func_array([$obj, $method], $data);
 }

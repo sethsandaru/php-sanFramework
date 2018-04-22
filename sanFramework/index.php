@@ -1,6 +1,6 @@
 <?php
 /**
- * SAN FRAMEWORK
+ * SAN FRAMEWORK v1.1
  * Supported:
  * + MVC
  * + MySQLi

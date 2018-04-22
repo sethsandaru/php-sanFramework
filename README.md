@@ -24,7 +24,7 @@ Visit wiki
 
 ## Version tracker
 ### v1.1
-+ Remove all namespace to easier the structre
++ Remove all namespace to easier the structure
 + Improve security
 + Make a wiki for this one :D
 
